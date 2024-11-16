@@ -41,5 +41,6 @@ const main = async () => {
         }
     }
     console.log(`The result is ${score}/${Object.keys(question).length}`);
+    console.log(Object.keys(show_ans));
 };
 main();
